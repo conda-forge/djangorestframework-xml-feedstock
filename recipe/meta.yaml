@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: djangorestframework-xml
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/djangorestframework-xml/djangorestframework-xml-{{ version }}.tar.gz
-  sha256: d85d5744e75fe01ea2af667b15f6aa7df97c710516477ba493558da8432f6b0f
+  sha256: 35f6c811d0ab8c8466b26db234e16a2ed32d76381715257aebf4c7be2c202ca1
 
 build:
   number: 0
@@ -29,7 +29,7 @@ about:
   home: https://github.com/jpadilla/django-rest-framework-xml
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'XML support for Django REST Framework'
+  summary: XML support for Django REST Framework
 
 extra:
   recipe-maintainers:
